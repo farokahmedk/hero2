@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+/* ===== Banner sections start ===== */
+.header {
+  overflow: hidden;
+}
+
+.banner {
+  background-color: #161616;
+  color: #ffffff;
+  border-radius: 5px;
+  margin-top: 50px;
+}
+
+.bannerContainer {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+.content {
+  flex: 50%;
+}
+.content h1 {
+  font-size: 3em;
+  text-transform: capitalize;
+}
+
+.content p {
+  margin: 30px 0;
+  line-height: 1.5em;
+}
+
+.btn {
+  background-color: #dd0000;
+  padding: 0.5em 0.5em;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+i {
+  margin-left: 5px;
+}
+
+.btn:hover {
+  color: #000;
+  background-color: #fff;
+}
+.imgMessi {
+  flex: 50%;
+  text-align: right;
+}
+
+.imgMessi img {
+  width: auto;
+  height: 500px;
+  margin-bottom: -10px;
+  padding-top: 20px;
+}
+/* ===== Banner sections End ===== */
+
+/* ===== main sections ===== */
+
+/* ===== Menu sections start ===== */
+
+.mainSections {
+  padding: 80px 0;
+}
+.menuSection {
+  width: 200px;
+  background-color: #161616;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  float: left;
+  overflow: hidden;
+  margin-right: 10px;
+}
+
+.menuSection ul {
+  list-style-type: none;
+}
+
+.menuSection ul li {
+  padding: 10px 20px;
+  background-color: #fff;
+  margin: 15px;
+  border-radius: 5px;
+  text-transform: capitalize;
+}
+.menuSection ul li:hover {
+  background-color: #dd0000 !important;
+  cursor: pointer;
+}
+.menuSection ul li:hover a {
+  color: #fff;
+}
+
+.menuSection ul li a {
+  color: #161616;
+  text-decoration: none;
+}
+
+.active {
+  background-color: #dd0000 !important;
+}
+.active a {
+  color: #fff !important;
+}
+/* ===== Menu sections end ===== */
+
+/* ===== Upcoming sections Part One start ===== */
+
+.upcomingTitle {
+  text-align: center;
+  color: #161616;
+  font-size: 1.4em;
+  margin-bottom: 20px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+}
+
+.grid-item {
+  /* background-color: #ccc; */
+  text-align: center;
+  padding: 40px 0;
+  border-radius: 5px;
+  border: 1px solid rgba(22, 22, 22, 0.1);
+}
+.flags {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flags img {
+  width: 80px;
+  height: auto;
+}
+
+.flags span {
+  padding: 0 20px;
+}
+
+.counties {
+  margin: 15px 0;
+}
+
+.counties span {
+  font-weight: bold;
+  font-size: 18px;
+  color: #161616;
+}
+.countriesGap {
+  padding: 0 10px;
+}
+
+.grid-item p {
+  font-size: 12px;
+  color: #4d4d4d;
+}
+
+/* ===== Upcoming sections Part One End ===== */
+/* ===== Upcoming sections Part Two start ===== */
