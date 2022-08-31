@@ -79,7 +79,7 @@ i {
 /* ===== Menu sections start ===== */
 
 .mainSections {
-  padding: 80px 0;
+  margin: 80px 0;
 }
 .menuSection {
   width: 200px;
@@ -125,7 +125,9 @@ i {
 /* ===== Menu sections end ===== */
 
 /* ===== Upcoming sections Part One start ===== */
-
+.upcomingMatch {
+  overflow: hidden;
+}
 .upcomingTitle {
   text-align: center;
   color: #161616;
@@ -140,7 +142,6 @@ i {
 }
 
 .grid-item {
-  /* background-color: #ccc; */
   text-align: center;
   padding: 40px 0;
   border-radius: 5px;
@@ -180,3 +181,152 @@ i {
 
 /* ===== Upcoming sections Part One End ===== */
 /* ===== Upcoming sections Part Two start ===== */
+
+.upcomingMatchTwo {
+  margin: 50px 0;
+}
+
+.tabs {
+  text-align: center;
+  padding: 10px 0 240px 0;
+  overflow: hidden;
+}
+.tabs ul li {
+  display: inline;
+  padding: 10px 20px;
+  cursor: pointer;
+  color: #000;
+  border-radius: 5px;
+  margin: 0 10px;
+  /* position: relative; */
+}
+
+.tabs ul li:hover {
+  background-color: #dd0000;
+  color: #fff;
+}
+
+.angleStyle {
+  background: transparent !important;
+  color: #000 !important;
+}
+
+.todayActive {
+  background-color: #dd0000;
+  color: #fff !important;
+  position: relative;
+}
+.two {
+  position: absolute;
+  z-index: 999;
+  top: 100px;
+  left: -50px;
+}
+.two .grid-item {
+  padding: 20px 20px;
+}
+/* .todayActive .two {
+  display: none;
+}
+.todayActive:hover .two {
+  display: block;
+  transition-duration: 5s;
+} */
+.angleStyle:hover {
+  color: #dd0000 !important;
+}
+
+.tomorrowMatches {
+  position: relative;
+}
+
+.tomorrow {
+  position: absolute;
+  z-index: 999;
+  top: 100px;
+  left: -156px;
+  display: none;
+}
+
+.tomorrow .grid-item {
+  padding: 20px 20px;
+}
+
+.tomorrowMatches:hover .tomorrow {
+  display: block;
+  background-color: #fff;
+}
+
+.willUpdate {
+  position: relative;
+}
+.willUpdate:hover .upComing {
+  display: block;
+}
+
+.upComing {
+  position: absolute;
+  background-color: #fff;
+  top: 100px;
+  left: -300px;
+  z-index: 9999;
+  width: 850px;
+  height: 200px;
+  display: none;
+  color: #4d4d4d;
+}
+
+/* ===== Upcoming sections Part Two end ===== */
+/* ===== Upcoming sections Footer start ===== */
+
+.upComingFooter {
+  width: 70%;
+  margin: auto;
+  background-image: url("images/upFooter.png");
+  padding: 10px 20px 30px 0;
+  border-radius: 5px;
+}
+.upComingFooterBanner {
+  display: flex;
+  position: relative;
+}
+.upComingFooterBanner .img {
+  flex-grow: 1;
+  position: relative;
+}
+.upComingFooterBanner img {
+  width: 230px;
+  height: auto;
+  position: absolute;
+  top: 2%;
+  left: -120px;
+}
+.upComingFooterContent {
+  flex-grow: 8;
+}
+
+.upComingFooterContent h2 {
+  padding: 20px 0 20px 150px;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 20px;
+}
+.upComingFooterContent p {
+  padding: 0 0 20px 150px;
+  color: #fff;
+  font-size: 14px;
+  width: 80%;
+}
+.upComingFooterContent .fbtn {
+  margin: 0 0 0 150px;
+  color: #dd0000;
+  font-size: 14px;
+  background-color: #fff;
+}
+.upComingFooterContent .fbtn:hover {
+  margin: 0 0 0 150px;
+  color: #fff;
+  font-size: 14px;
+  background-color: #dd0000;
+  border: 1px solid #fff;
+}
